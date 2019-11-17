@@ -1,0 +1,380 @@
+body {
+	FONT-SIZE: 12pt;
+	margin: auto;
+	SCROLLBAR-FACE-COLOR: #dddddd;
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff;
+	SCROLLBAR-SHADOW-COLOR: #fcfcfc;
+	COLOR: #000000;
+	SCROLLBAR-3DLIGHT-COLOR: #eeeeee;
+	SCROLLBAR-ARROW-COLOR: #ffffff;
+	SCROLLBAR-TRACK-COLOR: #eeeeee;
+	SCROLLBAR-DARKSHADOW-COLOR: #666666;
+	BACKGROUND-COLOR: #c3a339;
+	padding: auto;
+}
+
+/* start banner */
+.header {
+	width: 100%;
+	position: relative;
+	clear: both;
+}
+
+.headerbg {
+	width: 1000px;
+	height: 118px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: url(../Images/top_bg.png) no-repeat;
+}
+
+.headerbd {
+	padding-top: 89px;
+	padding-left: 680px;
+}
+/***end banner ****/
+#navigationbg {
+	width: 1000px;
+	clear: both;
+	margin: 0 auto;
+}
+
+.navigationbg_left {
+	height: 35px;
+	background-color: #c69a0a;
+	float: left;
+	width: 290px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.navigationbg_right {
+	height: 35px;
+	float: left;
+	background-color: #ad7c28;
+	padding-top: 10px;
+	width: 680px;
+	text-align: right;
+	color: #FFFFFF;
+	padding-right: 20px;
+}
+
+#navigationline {
+	width: 1000px;
+	background: url(../Images/navigation_bg_bottom.gif) repeat-x;
+	height: 9px;
+	clear: both;
+	margin: 0 auto;
+}
+/* 主体区域*/
+.section {
+	position: relative;
+	width: 100%;
+	clear: both;
+	margin: 0px;
+	overflow: hidden;
+}
+
+.mainbg {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+#maintable {
+	text-align: center;
+	position: relative;
+	width: 1000px;
+	height: auto;
+	min-height: 400px; overflow : hidden;
+	margin: 0 auto;
+	background-color: white;
+	overflow: hidden;
+}
+
+#place {
+	width: 100%;
+	text-align: right;
+	font-size: 12pt;
+	color: #FF6600;
+	padding:5px 0px;
+	height:auto;
+	font-family: "宋体";
+
+}
+#place_left{
+	font-family: "宋体";
+	width: 100%;
+	text-align: left;
+	font-size: 12pt;
+	color: #FF6600;
+	padding:10px;
+	height:auto;	
+}
+#mainbody{
+	padding-left:15px;
+	width:97%;
+}
+/***end 主体区域**/
+/*start 首页登录*/
+#logintable {
+	text-align: center;
+	position: relative;
+	width: 778px;
+	height: 255px;
+	margin: 0 auto;
+	margin-top: 200px;
+	background: url(../Images/login.jpg) no-repeat;
+}
+
+.login_ul {
+	font-size: 16px;
+	height: auto;
+	padding-right: 35px;
+	list-style-type: none;
+	margin: 0px;
+}
+
+.login_ul li {
+	color: #000000;
+	float: right;
+	text-align: right;
+	height: 27px;
+	clear: both;
+	padding: 10px 0px;
+	margin: 0px;
+}
+
+.login_copyright {
+	width: 1000px;
+	margin: 30px auto;
+	color: #7E5A03;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+}
+/*end 首页登录*/
+/* start 底部版权通用*/
+.footer {
+	width: 100%;
+	padding: 0px 0px;
+	margin: 0px;
+	clear: both;
+}
+
+.copyright {
+	width: 1000px;
+	background: url(../Images/copyright_t.gif) repeat-x;
+	margin: 0px auto;
+	color: #4d3602;
+	font-size: 12pt;
+	line-height: 24px;
+	text-align: center;
+	padding: 20px 0px;
+	background-color: #ffffff;
+}
+/*end 底部版权通用*/
+td {
+	font-size: 12pt;
+	line-height: 144%;
+}
+
+a:hover {
+	font-size: 12pt;
+	color: #FF6600;
+}
+
+a {
+	font-size: 12pt;
+	text-decoration: none;
+	color: #777777;
+}
+#menutable1 a:hover,#menutable2 a:hover,#menutable3 a:hover,#menutable4 a:hover,#menutable5 a:hover {
+	color:#FFFFFF;
+}
+
+.btn_grey {
+	font-size: 12pt;
+	color: #333333;
+	background-color: #eeeeee;
+	cursor: hand;
+	padding: 1px;
+	height: 30px;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid #666666;
+	padding: 5px 15px;
+	border-bottom: 1px solid #666666;
+	border-left: 1px solid #FFFFFF;
+}
+
+.word_dark {
+	font-size: 12pt;
+	color: #6A3E03;
+}
+
+.word_login {
+	font-size: 12pt;
+	color: #7E5A03;
+}
+
+.word_orange {
+	font-size: 12pt;
+	color: #FF6600;
+}
+
+.word_white {
+	font-size: 12pt;
+	color: #FFFFFF;
+}
+
+.txt_grey {
+	font-family: "宋体";
+	font-size: 12pt;
+	color: #333333;
+	border: 1px solid #999999;
+	width: 110;
+}
+
+input {
+	font-family: "宋体";
+	font-size: 12pt;
+	color: #333333;
+	border: 1px solid #999999;
+	padding: 5px;
+}
+select{
+	padding:5px;
+}
+.logininput {
+	height: 27px;
+	padding: 5px;
+	border-color: #777777;
+	border-size: 1px;
+}
+
+.wenbenkuang {
+	font-size: 12pt;
+	color: #333333;
+	border: 1px solid #999999;
+}
+
+.search {
+	font-size: 12pt;
+	color: #000000;
+	background-color: #EEEEEE;
+	border: 1px Hidden #000000;
+}
+
+.tableBorder {
+	border: #FBE5AC 1px solid
+}
+
+.tableBorder_grey {
+	border: #dddddd 1px solid
+}
+
+.tableBorder_gray {
+	border: #FBE5AC 1px solid
+}
+
+.tableBorder_Top {
+	border: 1px solid #9CA6C6;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-style: none
+}
+
+.tableBorder_Botton {
+	border: 1px solid #9CA6C6;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none
+}
+
+hr {
+	width:98%;
+	border-top: #FAE9A3 1px solid;
+}
+
+.ToolTip {
+	BORDER-RIGHT: #8492b9 1px solid;
+	BORDER-TOP: #8492b9 1px solid;
+	BORDER-LEFT: #8492b9 1px solid;
+	COLOR: #333333;
+	BORDER-BOTTOM: #8492b9 1px solid;
+	BACKGROUND-COLOR: #f9f9f9
+}
+
+.noborder {
+	border-style: none;
+}
+
+.tableBorder_B {
+	border: 1px solid #9CA6C6;
+	border-left-style: none;
+	border-right-style: none;
+	border-Top-style: none;
+}
+
+/* 设置表格的边框 */
+.table {
+	border: 1px solid #F6B83B;
+	border-right: 0px;
+	border-top: 0px;
+	width:100%;
+	border-collapse:separate;
+	border-spacing:0px 0px;
+	margin: 10px 0px;
+}
+
+.table td {
+	border: 1px solid #F6B83B;
+	border-bottom: 0px;
+	border-left: 0px;
+}
+/****************/
+.menuitems1 {
+	margin: 2px;
+	padding: 1px;
+	word-break: keep-all;
+	background-image: url("Images/item_out.gif");
+}
+
+div.quote {
+	margin: 5px 20px;
+	border: 1px solid #8492b9;
+	padding: 5px;
+	background: #8492b9;
+	line-height: normal;
+}
+
+div.HtmlCode {
+	margin: 5px 20px;
+	border: 1px solid #AAAAAA;
+	padding: 5px;
+	background: #FDFDDF;
+	font-size: 12px;
+	font-family: Tahoma;
+	font-style: oblique;
+	line-height: normal;
+	font-weight: bold;
+}
+
+.menuskin {
+	BORDER: #B0690B 1px solid;
+	VISIBILITY: hidden;
+	POSITION: absolute;
+	/*BACKGROUND-COLOR:#EFEFEF;*/
+	background-image: url("../Images/item_out.gif");
+	background-repeat: repeat-y;
+	Filter: Alpha(Opacity = 85);
+}
+/***************弹出窗口样式*********************/
+.openwindowbox{
+width:407px;
+height:145px;
+background-image: url(../Images/subBG.jpg);
+overflow:hidden;
+padding-left:45px;
+padding-top:30px;
+}
